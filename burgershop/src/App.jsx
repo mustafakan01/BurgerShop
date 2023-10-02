@@ -5,6 +5,8 @@ import { Menü } from './Components/Menü'
 import { About } from './Components/About'
 import { Contact } from './Components/Contact'
 import { NavBar } from './Components/NavBar'
+import { Footer } from './Components/Footer'
+
 
 function App() {
 
@@ -17,6 +19,7 @@ function App() {
         <Route path='/about' exact element={<About></About>} />
         <Route path='/contact' exact element={<Contact></Contact>} />
       </Routes>
+      <Footer></Footer>
     </div>
   )
 }
