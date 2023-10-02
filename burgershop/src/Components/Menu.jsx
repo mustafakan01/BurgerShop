@@ -1,4 +1,4 @@
-import MenuItem from '../Components/MenuItem';
+import MenuItem from './MenuItem';
 import React from 'react';
 import { Data } from '../Helpers/Data';
 import '../styles/Menu.css';
